@@ -33,7 +33,9 @@ const {
 // < 16
 
 function exponencial(exp) {
-
+    return function(parametro){
+        return parametro^exp
+    }
 }
 
 // ----- Recursión -----
